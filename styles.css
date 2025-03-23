@@ -1,7 +1,41 @@
-/* Place your CSS styles in this file */
-
-h1 {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    align-items: center;
+    justify-content: justify;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, #3b403f 0%, #7a8089 40%, #ae93df 60%, #4a2c43 100%);
+    background-size: 200% 200%;
+    animation: float 6s linear infinite alternate;
+}
+body h1 {
+    align-items: center;
     text-align: center;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: normal;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 25px;
+}
+main a{
+    background: #61666c;
+    padding: 15px 0;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 3px;
+    box-shadow: 10px 10px #b5b3b4;
+    transition: all .5s ease-in-out;
+}
+main a:hover{
+    opacity: .85;
 }
