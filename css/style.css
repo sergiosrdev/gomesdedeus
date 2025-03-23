@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+  body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+construcao{
+   : center;
+}
+
+footer {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom:0;
+    width: 100%;
+}
