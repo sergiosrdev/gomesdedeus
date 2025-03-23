@@ -1,13 +1,15 @@
-* {
-    box-sizing: border-box;
-}
+OK, vamos ajustar o CSS para usar fontes menores na página principal e adicionar justificação ao texto onde for apropriado. Aqui está o CSS modificado:
 
-  body {
+CSS
+
+/* Geral */
+body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
 }
 
+/* Header */
 header {
     background-color: #333;
     color: #fff;
@@ -29,18 +31,80 @@ nav a {
     text-decoration: none;
 }
 
+/* Main */
 main {
     padding: 20px;
 }
-construcao{
-   : center;
+
+/* Apresentação */
+#apresentacao {
+    text-align: center; /* Centraliza o texto horizontalmente */
+    padding: 50px 0; /* Adiciona espaçamento vertical */
 }
 
+.apresentacao-conteudo {
+    max-width: 800px; /* Limita a largura do conteúdo */
+    margin: 0 auto; /* Centraliza o conteúdo horizontalmente */
+}
+
+#apresentacao h1 {
+    font-size: 2.0em; /* Reduz o tamanho da fonte */
+    margin-bottom: 10px;
+}
+
+#apresentacao h3 {
+    font-size: 1.3em; /* Reduz o tamanho da fonte */
+    margin-bottom: 20px;
+}
+
+#apresentacao p {
+    font-size: 1.0em; /* Reduz o tamanho da fonte */
+    text-align: justify; /* Adiciona justificação */
+}
+
+/* Destaques */
+#destaques {
+    text-align: center;
+    padding: 30px 0;
+}
+
+#destaques h2 {
+    font-size: 1.8em; /* Reduz o tamanho da fonte */
+    margin-bottom: 20px;
+}
+
+#destaques p {
+    font-size: 1.0em; /* Reduz o tamanho da fonte */
+    text-align: justify; /* Adiciona justificação */
+}
+
+/* Construção */
+#construcao {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.construcao-conteudo {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#construcao p {
+    font-size: 1.1em; /* Reduz o tamanho da fonte */
+    margin-bottom: 20px;
+}
+
+#construcao img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse o contêiner */
+    height: auto;
+}
+
+/* Footer */
 footer {
     background-color: #f0f0f0;
     text-align: center;
     padding: 10px 0;
     position: fixed;
-    bottom:0;
+    bottom: 0;
     width: 100%;
 }
